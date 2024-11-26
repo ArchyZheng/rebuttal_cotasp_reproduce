@@ -19,8 +19,8 @@ from jaxrl.agents.sac.sac_learner import CoTASPLearner
 from continual_world import TASK_SEQS, get_single_env
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string('env_name', 'cw20', 'Environment name.')
-flags.DEFINE_integer('seed', 110, 'Random seed.')
+flags.DEFINE_string('env_name', 'cw10', 'Environment name.')
+flags.DEFINE_integer('seed', 100, 'Random seed.')
 flags.DEFINE_string('base_algo', 'cotasp', 'base learning algorithm')
 
 flags.DEFINE_string('env_type', 'random_init_all', 'The type of env is either deterministic or random_init_all')
